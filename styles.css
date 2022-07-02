@@ -1,0 +1,152 @@
+
+    
+
+body{
+    background-color: rgb(223, 207, 207);
+    font-size: 14px;
+}
+@media (min-width: 996px) {
+.hidden-mobile{
+    display: none;
+}
+
+div.main{
+    padding: 100px;
+    background-color: white;
+    width: 300px;
+    margin-top: 125px;
+    margin-bottom: 100px;
+    margin-left: 413px;
+    height: 200px;
+    border-radius: 10px;
+    position: relative;
+
+
+}
+h1{
+    font-family: Fraunces;
+}
+span{
+    font-family: montserrat;
+    letter-spacing: 0px;
+    color: hsl(158, 36%, 37%);
+}
+.price{
+    color: hsl(228, 12%, 48%);
+    display: inline-block;
+}
+img{
+    height: 400px;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0px;
+    left:0px;
+    border-radius: 10px 0px 0px 10px;
+
+}
+div.texts{
+    position: absolute;
+    left: 270px;
+    top: 20px;
+}
+.payment{
+    padding: 10px;
+    color: blanchedalmond;
+    text-align: center;
+    border-radius: 7px;
+    background-color:hsl(228, 12%, 48%);
+    margin: 0px;
+    margin-right: 10px;
+    font-family: montserrat;
+}
+.slashed{
+    padding-left: 15px;
+    display: inline-block;
+    text-decoration: line-through;
+    font-family: montserrat;
+    vertical-align:super;
+    color: hsl(158, 36%, 37%);
+}
+iframe{
+    padding: 0px;
+    margin: 0px;
+    width: 15px;
+    height: 16px;
+    padding-right: 7px;
+}
+div.payment:hover {
+    background-color: hsl(212, 21%, 14%);
+}
+}
+@media (max-width: 996px) {
+    .hidden-desktop{
+        display: none;
+    }
+    div.main{
+        padding: 50px;
+        background-color: white;
+        width: 250px;
+        margin: 30px auto;
+        height: 500px;
+        border-radius: 10px;
+        position: relative; 
+}
+img{
+    height: 250px;
+    width: 350px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0px;
+    left:0px;
+    border-radius: 10px 0px 0px 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+div.texts{
+    position: absolute;
+    left: 20px;
+    top: 270px;
+}
+.payment{
+    padding: 10px;
+    color: blanchedalmond;
+    text-align: center;
+    border-radius: 7px;
+    background-color:hsl(228, 12%, 48%);
+    margin: 0px;
+    margin-right: 10px;
+    font-family: montserrat;
+}
+iframe{
+    padding: 0px;
+    margin: 0px;
+    width: 15px;
+    height: 16px;
+    padding-right: 7px;
+}
+div.payment:hover {
+    background-color: hsl(212, 21%, 14%);
+}
+h1{
+    font-family: Fraunces;
+}
+span{
+    font-family: montserrat;
+    letter-spacing: 0px;
+    color: hsl(158, 36%, 37%);
+}
+.price{
+    color: hsl(228, 12%, 48%);
+    display: inline-block;
+}
+.slashed{
+    padding-left: 15px;
+    display: inline-block;
+    text-decoration: line-through;
+    font-family: montserrat;
+    vertical-align:super;
+    color: hsl(158, 36%, 37%);
+}
+}
